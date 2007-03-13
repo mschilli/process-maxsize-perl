@@ -1,0 +1,24 @@
+######################################################################
+    Process::MaxSize 0.01
+######################################################################
+
+NAME
+    Process::MaxSize - blah blah blah
+
+SYNOPSIS
+        use Process::MaxSize;
+
+DESCRIPTION
+    Process::MaxSize blah blah blah.
+
+EXAMPLES
+      $ perl -MProcess::MaxSize -le 'print $foo'
+
+LEGALESE
+    Copyright 2006 by Mike Schilli, all rights reserved. This program is
+    free software, you can redistribute it and/or modify it under the same
+    terms as Perl itself.
+
+AUTHOR
+    2006, Mike Schilli <mschilli@yahoo-inc.com>
+
