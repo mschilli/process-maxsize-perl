@@ -14,15 +14,15 @@ BEGIN { use_ok('Process::MaxSize') };
 
 use Process::MaxSize;
 
-my $mysize = Process::MaxSize::mysize();
+my $process_size = Process::MaxSize::process_size();
 
   # Sanity check
-if($mysize < 1000 or
-   $mysize > 20000) {
-    die "Measured process size $mysize -- please contact the author";
+if($process_size < 1000 or
+   $process_size > 20000) {
+    die "Measured process size $process_size -- please contact the author";
 }
 
-my $max_size = $mysize + 1024*5;
+my $max_size = $process_size + 1024*5;
 my $mega = ("X" x (1024*1024));
 
 my $restarted = 0;
