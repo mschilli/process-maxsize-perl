@@ -1,6 +1,6 @@
 ######################################################################
 # Makefile.PL for Process::MaxSize
-# 2006, Mike Schilli <mschilli@yahoo-inc.com>
+# 2007, Mike Schilli <m@perlmeister.com>
 ######################################################################
 use ExtUtils::MakeMaker;
 WriteMakefile(
@@ -12,5 +12,5 @@ WriteMakefile(
     }, # e.g., Module::Name => 1.1
     ($] >= 5.005 ?    ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM => 'MaxSize.pm',
-       AUTHOR     => 'Mike Schilli <mschilli@yahoo-inc.com>') : ()),
+       AUTHOR     => 'Mike Schilli <m@perlmeister.com>') : ()),
 );

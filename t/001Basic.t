@@ -1,6 +1,6 @@
 ######################################################################
 # Test suite for Process::MaxSize
-# by Mike Schilli <mschilli@yahoo-inc.com>
+# by Mike Schilli <m@perlmeister.com>
 ######################################################################
 
 use warnings;
