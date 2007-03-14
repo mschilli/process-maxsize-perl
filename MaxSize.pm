@@ -79,7 +79,7 @@ sub process_size {
     
     my $size;
 
-    open PIPE, "/bin/ps -ww -axo 'pid,rss' |";
+    open PIPE, "/bin/ps wwaxo 'pid,rss' |";
     while(<PIPE>) {
         next unless /^\s*$$\s/;
 	s/^\s+//g;

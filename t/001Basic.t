@@ -29,6 +29,7 @@ my $restarted = 0;
 my $p = Process::MaxSize->new(
     restart  => sub { $restarted = 1; },
     max_size => $max_size,
+    sleep    => 0,
 );
 
 my @arr = ();
