@@ -1,6 +1,9 @@
 ######################################################################
 Revision history for Perl extension Process::MaxSize
 
+0.03 (2013/07/14)
+  (ms) another fix to the ps command
+
 0.02 (2013/07/14)
   (ms) changed ps format to make it more palatable for weirdo unixes
 

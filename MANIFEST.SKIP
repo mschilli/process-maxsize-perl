@@ -9,3 +9,4 @@ adm/release
 .git
 MYMETA.json
 MYMETA.yml
+.gz$
