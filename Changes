@@ -1,5 +1,8 @@
 ######################################################################
 Revision history for Perl extension Process::MaxSize
 
+0.02  2013/07/14
+  (ms) changed ps format to make it more palatable for weirdo unixes
+
 0.01  2007/03/13
-      * Where it all began.
+  (ms) Where it all began.

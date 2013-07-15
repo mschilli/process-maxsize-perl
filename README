@@ -1,5 +1,5 @@
 ######################################################################
-    Process::MaxSize 0.01
+    Process::MaxSize 0.02
 ######################################################################
 
 NAME
@@ -19,7 +19,7 @@ SYNOPSIS
               # restarts the process if memory limit is exceeded
             $watchdog->check();
         }
-   
+
 DESCRIPTION
     "Process::MaxSize" helps to contain perl programs that leak memory. It
     defines a watchdog that, at well defined locations within a program,

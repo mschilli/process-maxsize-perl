@@ -7,7 +7,7 @@ use warnings;
 use Log::Log4perl qw(:easy);
 use Cwd;
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 ###########################################
 sub new {
@@ -79,7 +79,7 @@ sub process_size {
     
     my $size;
 
-    open PIPE, "/bin/ps wwaxo 'pid,rss' |";
+    open PIPE, "ps -a -x -o pid,rss |";
     while(<PIPE>) {
         next unless /^\s*$$\s/;
 	s/^\s+//g;
