@@ -1,6 +1,10 @@
 ######################################################################
 Revision history for Perl extension Process::MaxSize
 
+0.04 (2014/05/18)
+  (ms) Slaven Rezic added a fix to the test suite to deal with 
+       bleading edge perls with enabled COW.
+
 0.03 (2013/07/14)
   (ms) another fix to the ps command
 

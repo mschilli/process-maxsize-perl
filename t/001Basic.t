@@ -42,7 +42,10 @@ $p->check();
 is($restarted, 0, "Not yet restarted");
 
 for(1..5) {
-    push @arr, $mega;
+      # note that we're appending modified strings at the end, 
+      # to make sure Perl's COW won't optimize it (this might still
+      # break when Perl gets smarter).
+    push @arr, $_ . $mega;
     $p->check();
 }
 
